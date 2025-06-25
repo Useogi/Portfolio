@@ -44,7 +44,7 @@ h1 {
 }
 
 /* 소제목 컬러 */
-h4 {
+/* h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -52,10 +52,10 @@ h4 {
     color: #743fa3;
     margin-left: 40px;
     font-weight: 700;
-}
+} */
 
 /* h4소제목 앞에 바 */
-h4:before {
+/* h4:before {
     position: absolute;
     width: 30px;
     left: -40px;
@@ -64,7 +64,8 @@ h4:before {
     height: 2px;
     background: #743fa3;
     top: 9px;
-}
+} */
+
 
 
 
@@ -286,12 +287,14 @@ a:focus {
 }
 
 a:hover {
-    color: #F1CD5B;
+    /* color: #F1CD5B; */
+    color: #EAC76F;
     text-decoration: none;
 }
 
 a.active {
-    color: #F1CD5B;
+    /* color: #F1CD5B; */
+    color: #EAC76F;
 }
 
 
@@ -840,7 +843,7 @@ a.active {
 }
 
 #artwork h4 {
-    margin-top: -16px;
+    margin-top: 10px;
 }
 
 .artbox {
@@ -1092,8 +1095,9 @@ a.active {
 }
 
 .lefttext {
-    font-size: 16px !important;
+    font-size: 14px !important;
     /* padding-left: 20px; */
+    padding-right: 15px;
 }
 
 .container {
