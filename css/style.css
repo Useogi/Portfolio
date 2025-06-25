@@ -411,7 +411,9 @@ a.active {
 .aboutme {
     font-size: 20px;
     font-weight: 400;
+    padding-top: 20px;
     padding-bottom: 20px;
+    line-height: 28px;
 }
 
 .yellowtype {
@@ -1180,7 +1182,8 @@ a.active {
 /* 카드 */
 
 .card_slide {
-    width: 120%;
+    /* width: 120%; */
+    width: 100%;
     height: 500px;
     /* background-color: white; */
 
@@ -1231,8 +1234,15 @@ a.active {
 }
 
 /* .popup.pop1.active .card_slide */
-.popup.active .card_slide {
+/* .popup.active .card_slide {
     width: 500px;
+    height: 600px;
+    transition: all 0.5s ease;
+    background: none;
+} */
+.popup.active .card_slide {
+    /* width: 500px; */
+    width: 1000px;
     /* 적당한 이미지 카드 크기 */
     height: 600px;
     transition: all 0.5s ease;
@@ -1294,7 +1304,16 @@ a.active {
 
 /* 팝업 내부 슬라이더를 꽉 채우게 */
 /* .popup.pop1.active .card_slide */
-.popup.active .card_slide {
+/* .popup.active .card_slide {
+    width: 400px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 90vh;
+    transition: all 0.5s ease;
+    background: none;
+    overflow: hidden;
+} */
+.popup .card_slide {
     width: 400px;
     height: 500px;
     max-width: 100%;
@@ -1322,7 +1341,16 @@ a.active {
     align-items: center;
 }
 /* .popup.pop1.active .card_slide */
-.popup.active .card_slide {
+/* .popup.active .card_slide {
+    width: 400px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 90vh;
+    background: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+} */
+.popup .card_slide {
     width: 400px;
     height: 500px;
     max-width: 100%;
@@ -1552,7 +1580,8 @@ a.active {
 
 /* 카드 전용 스타일 */
 .card_slide {
-    width: 120%;
+    /* width: 120%; */
+    width: 100%;
     height: 500px;
 }
 
@@ -1601,7 +1630,16 @@ a.active {
 
 /* 팝업 카드 슬라이드 - 크기 조절 */
 /* .popup.pop1.active .card_slide */
-.popup.active .card_slide {
+/* .popup.active .card_slide {
+    width: 950px;
+    height: 650px;
+    max-width: 100%;
+    max-height: 90vh;
+    background: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+} */
+.popup .card_slide {
     width: 950px;
     height: 650px;
     max-width: 100%;
@@ -1650,15 +1688,18 @@ a.active {
 /* 3번 */
 .pop2 .swiper-container {
     /* width: 100vw; */
-    width: 500px;
+    /* width: 500px; */
+    width: 1000px;
     height: auto;
-    max-width: 500px;
+    /* max-width: 500px; */
+    max-width: 1000px;
     box-sizing: border-box;
     overflow: hidden;
 }
 .pop2 .swiper-slide img {
     width: 100%;
     max-width: 500px;
+    /* max-width: 1000px; */
     height: auto;
     display: block;
 }
